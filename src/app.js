@@ -14,7 +14,7 @@ const todos = [
 
 app.get("/", (req, res) => {
   res.json({
-    message: process.env.APP_NAME || "Todo API",
+    message: process.env.APP_NAME || "Todo API v2",
   });
 });
 
