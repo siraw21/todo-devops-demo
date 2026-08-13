@@ -8,7 +8,7 @@ const todos = [
   {
     id: 1,
     title: "Learn DevOps",
-    completed: false,
+    completed: true,
   },
 ];
 
