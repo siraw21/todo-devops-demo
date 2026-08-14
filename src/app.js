@@ -10,6 +10,16 @@ const todos = [
     title: "Learn DevOps",
     completed: true,
   },
+  {
+    id: 2,
+    title: "Learn Backend",
+    completed: true,
+  },
+  {
+    id: 3,
+    title: "Learn Frontend",
+    completed: true,
+  },
 ];
 
 app.get("/", (req, res) => {
